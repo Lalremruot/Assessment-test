@@ -1,0 +1,292 @@
+[
+  {
+    "index": 1,
+    "statement": "How do you prefer to work?",
+    "response": ["Independently", "In a team", "A mix of both"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 2,
+    "statement": "How do you handle deadlines and time pressure?",
+    "response": ["I thrive under pressure", "I get stressed but can manage", "I need ample time to plan and work"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 3,
+    "statement": "When faced with a problem, what is your typical approach?",
+    "response": ["Analyze and research solutions", "Ask others for advice or work together", "Trust my instincts and make a decision quickly"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 4,
+    "statement": "How do you feel about public speaking or presenting ideas?",
+    "response": ["I enjoy it and feel confident", "I can do it if required, but I'm nervous", "I avoid it whenever possible"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 5,
+    "statement": "What motivates you to perform well at work?",
+    "response": ["Recognition and praise", "Financial rewards and career advancement", "Making a difference in society"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 6,
+    "statement": "How comfortable are you with solving complex problems?",
+    "response": ["Very comfortable; I enjoy analytical thinking", "Moderately comfortable; I prefer clear instructions", "Not comfortable; I prefer simple tasks"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 7,
+    "statement": "How do you feel about working with data or numbers?",
+    "response": ["I enjoy working with data and numbers regularly", "I’m okay with it, but it's not my favorite task", "I avoid it whenever possible"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 8,
+    "statement": "Are you good at managing and organizing projects or events?",
+    "response": ["I excel at managing multiple tasks efficiently", "I can manage, but prefer some assistance", "I struggle with managing tasks and prefer guidance"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 9,
+    "statement": "How do you assess your creative skills (writing, designing, etc.)?",
+    "response": ["I have strong creative skills", "I have some creativity, but I'm more practical", "I prefer working on tasks with less emphasis on creativity"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 10,
+    "statement": "How confident are you in your communication skills (written and verbal)?",
+    "response": ["I'm very confident in both written and verbal communication", "I'm confident in one but not the other", "I'm not very confident in either"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 11,
+    "statement": "Do you enjoy learning and applying new technologies or tools?",
+    "response": ["Yes, I enjoy learning about and using new technologies", "I'm neutral about it; I can adapt if necessary", "No, I prefer sticking to familiar tools and methods"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 12,
+    "statement": "Are you good at negotiating and persuading others?",
+    "response": ["Yes, I'm very persuasive and can negotiate effectively", "I am decent, but I don't enjoy it much", "No, I struggle with persuasion and negotiation"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 13,
+    "statement": "What type of work excites you the most?",
+    "response": ["Working with data, research, or analysis", "Managing and leading teams", "Helping people and serving communities"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 14,
+    "statement": "Do you enjoy working in fast-paced environments?",
+    "response": ["Yes, I love the challenge", "I’m okay with it, but I prefer balance", "No, I prefer slow-paced, structured environments"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 15,
+    "statement": "Which of these sectors are you most drawn to?",
+    "response": ["Information Technology (IT) and Software", "Finance and Banking", "Government and Public Administration"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 16,
+    "statement": "Do you prefer a job that involves travel or fieldwork?",
+    "response": ["Yes, I love traveling and fieldwork", "Occasionally, but not frequently", "No, I prefer a desk job"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 17,
+    "statement": "Would you prefer working for a multinational company (MNC) or a small business?",
+    "response": ["MNC with global reach and exposure", "Small business for a more personal, hands-on experience", "A startup for the excitement of building something new"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 18,
+    "statement": "Do you enjoy teaching or training others?",
+    "response": ["Yes, I love teaching and sharing knowledge", "I can do it occasionally, but not as a career", "No, I prefer learning on my own"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 19,
+    "statement": "What role do you see yourself in?",
+    "response": ["Technical Expert", "Consultant/Advisor", "Educator/Trainer"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 20,
+    "statement": "Which emerging industry in India interests you the most?",
+    "response": ["E-commerce", "Financial & Healthcare Technology", "Agritech (Agricultural Technology)"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 21,
+    "statement": "Are you interested in government jobs or civil services (IAS, IPS, etc.)?",
+    "response": ["Yes, I am actively preparing", "I am considering it", "No, I prefer private sector opportunities"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 22,
+    "statement": "How important is work-life balance to you?",
+    "response": ["Extremely important", "It is important but I can adjust if needed", "It's not a priority as long as I enjoy my work"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 23,
+    "statement": "Are you interested in working in rural development or social impact sectors?",
+    "response": ["Yes, I find purpose in social work and rural development", "I may consider it in the future", "No, I prefer corporate or private sector roles"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 24,
+    "statement": "What do you think is your ideal career?",
+    "response": ["A career with high earning potential", "A career with stability and security", "A career with a meaningful social impact"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 25,
+    "statement": "How would you describe your long-term career goals?",
+    "response": ["I want to climb the corporate ladder to reach a senior leadership position", "I want to be a subject-matter expert in my field", "I want to work independently or start my own business"],
+    "weights": {
+      "AnalyticalThinkers": 3,
+      "CreativesInnovators": 1,
+      "PracticalExecutors": 2
+    }
+  },
+  {
+    "index": 26,
+    "statement": "What role does job security play in your career choices?",
+    "response": ["It is my top priority", "It is important, but I am willing to take risks", "I am willing to take significant risks if the rewards are high"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 27,
+    "statement": "What would you like to achieve in your career in the next 5 years?",
+    "response": ["Become an expert in a specialized field", "Own a successful business or startup", "Make a meaningful social or community impact"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  },
+  {
+    "index": 28,
+    "statement": "How do you feel about lifelong learning and career development?",
+    "response": ["I am committed to continuous learning and development", "I am open to learning new skills when necessary", "I prefer stability and less frequent upskilling"],
+    "weights": {
+      "AnalyticalThinkers": 2,
+      "CreativesInnovators": 3,
+      "PracticalExecutors": 1
+    }
+  },
+  {
+    "index": 29,
+    "statement": "Which of these Indian career paths do you relate to the most?",
+    "response": ["Civil Services (IAS, IPS)", "Engineering/Medical", "Entrepreneurship/Corporate Jobs"],
+    "weights": {
+      "AnalyticalThinkers": 1,
+      "CreativesInnovators": 2,
+      "PracticalExecutors": 3
+    }
+  }
+]

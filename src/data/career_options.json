@@ -1,0 +1,75 @@
+{
+  "AnalyticalThinkers": [
+    {"category": "Analytical Thinkers"},
+    {"description": "Individuals who excel in logical reasoning, problem-solving, data analysis, and prefer structured environments. They may enjoy working independently and are comfortable with research and data-oriented tasks."},
+
+    {"title": "Data Scientist"},
+    {"description2": "Analyze large data sets to identify trends, solve problems, and help companies make informed decisions."},
+
+    {"title": "Software Engineer / Developer"},
+    {"description2": "Develop software applications, websites, or systems, focusing on technical aspects like coding and programming."},
+
+    {"title": "Chartered Accountant (CA)"},
+    {"description2": "Manage and analyze financial records, audits, and taxation for businesses."},
+
+    {"title": "Actuary"},
+    {"description2": "Use statistics and mathematics to assess financial risk in insurance and finance sectors."},
+
+    {"title": "Economist"},
+    {"description2": "Study and analyze economic issues to advise businesses or government bodies."},
+
+    {"title": "Operations Research Analyst"},
+    {"description2": "Apply mathematical methods to help businesses operate more efficiently."}
+
+
+  ],
+  
+  "CreativesInnovators": [
+    {"category": "Creatives and Innovators"},
+    {"description": "Individuals with a flair for creativity, innovation, and the ability to think outside the box. They enjoy dynamic environments and often excel in artistic, design-oriented, or entrepreneurial roles."},
+
+    {"title": "Graphic Designer"},
+    {"description2": "Create visual content for websites, advertisements, or branding."},
+
+    {"title": "Content Creator / Digital Marketing Specialist"},
+    {"description2": "Develop engaging content for social media, blogs, and other platforms, with a focus on creativity and branding."},
+
+    {"title": "Architect"},
+    {"description2": "Design buildings and structures, blending aesthetics with practicality."},
+
+    {"title": "Fashion Designer"},
+    {"description2": "Create innovative clothing and accessories for the fashion industry."},
+
+    {"title": "Event Planner / Manager"},
+    {"description2": "Organize and execute events, from corporate functions to weddings, focusing on creativity and logistics."},
+
+    {"title": "Entrepreneur / Start-up Founder"},
+    {"description2": "Start and run your own business based on an innovative idea or service."}
+
+
+  ],
+
+  "PracticalExecutors": [
+    {"category": "Practical Executors"},
+    {"description": "These individuals are hands-on, methodical, and enjoy working on concrete tasks with clear outcomes. They often prefer structured roles that involve technical skills, logistics, or physical work."},
+
+    {"title": "Civil Engineer"},
+    {"description2": "Design, construct, and maintain infrastructure like roads, bridges, and buildings."},
+
+    {"title": "Electrician / Plumber"},
+    {"description2": "Provide technical services in home or industrial settings, solving electrical or plumbing issues."},
+
+    {"title": "Agriculture Specialist / Agronomist"},
+    {"description2": "Work with farmers to improve crop production and agricultural practices."},
+
+    {"title": "Chef / Culinary Arts Professional"},
+    {"description2": "Create culinary experiences and manage restaurant kitchens."},
+
+    {"title": "Construction Manager / Site Supervisor"},
+    {"description2": "Oversee construction projects, ensuring that they are completed on time and within budget."},
+
+    {"title": "Air Traffic Controller / Pilot"},
+    {"description2": "Ensure safe and efficient air travel, either managing flights or piloting aircraft."}
+  ]
+}
+  

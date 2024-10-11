@@ -1,0 +1,64 @@
+
+[
+    {
+      "id": 1,
+      "statement": "I would rather tackle complex problems than deal with routine tasks.",
+      "category": "IT"
+    },
+    {
+      "id": 2,
+      "statement": "I would rather collaborate with others than work independently.",
+      "category": "Business"
+    },
+    {
+      "id": 3,
+      "statement": "I would rather explore how things function in the natural world than focus on abstract concepts.",
+      "category": "Health"
+    },
+    {
+      "id": 4,
+      "statement": "I would rather create and develop ideas than follow established plans.",
+      "category": "Business"
+    },
+    {
+      "id": 5,
+      "statement": "I would rather embrace new technologies than avoid them.",
+      "category": "IT"
+    },
+    {
+      "id": 6,
+      "statement": "I would rather support others in achieving their goals than prioritize my own ambitions.",
+      "category": "Health"
+    },
+    {
+      "id": 7,
+      "statement": "I would rather interpret data to uncover insights than make decisions based solely on intuition.",
+      "category": "IT"
+    },
+    {
+      "id": 8,
+      "statement": "I would rather analyze trends and patterns than focus on individual details.",
+      "category": "Business"
+    },
+    {
+      "id": 9,
+      "statement": "I would rather engage in hands-on activities than spend most of my time in theory.",
+      "category": "Health"
+    },
+    {
+      "id": 10,
+      "statement": "I would rather coordinate efforts with a team than go solo on projects.",
+      "category": "Business"
+    },
+    {
+      "id": 11,
+      "statement": "I would rather develop solutions to challenges than stick to traditional methods.",
+      "category": "IT"
+    },
+    {
+      "id": 12,
+      "statement": "I would rather emphasize well-being and balance than overlook mental health.",
+      "category": "Health"
+    }
+  ]
+  
