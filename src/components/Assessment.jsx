@@ -154,49 +154,50 @@ const Assessment = () => {
   return (
     <>
       {submitted ? (
-        <div className="max-w-3xl p-12 mx-auto bg-gray-200 shadow-lg rounded-lg items-center">
-        <div className="p-6 bg-gray-200 rounded-lg" id="assessment-result">
-          <h1 className="mb-4 text-4xl font-bold text-gray-900">Assessment Result</h1>
-          <div className="mb-6 text-lg text-gray-800">
-            <p className="mb-4 text-gray-600">Generated on {dateTime}</p>
-            <p className="font-medium">Name: <span className="text-gray-900">{detail.name}</span></p>
-            <p className="font-medium">Email: <span className="text-gray-900">{detail.email}</span></p>
-            <p className="font-medium">Phone: <span className="text-gray-900">{detail.phone}</span></p>
-          </div>
-          <p className="mb-6 text-xl text-gray-800">
-            Based on your responses, here are the available careers in{" "}
-            <span className="font-semibold text-blue-600">{selectedCareers[0].category}</span>:
-          </p>
-          <ul className="space-y-6">
-            {selectedCareers.map(({ title, description, description2 }, index) => (
-              <li key={index} className="p-4 bg-white rounded-lg shadow-md border border-gray-200">
-                <h3 className="text-xl font-semibold text-blue-600">{title}</h3>
-                <p className="text-gray-600">{description}</p>
-                {description2 && <p className="text-gray-600">{description2}</p>}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="flex justify-end gap-4 mt-8">
-          <button
-            onClick={() => {
-              setSubmitted(false);
-              setResponses({});
-              setCurrentPage(0);
-              setRankedCareers([]);
-            }}
-            className="px-6 py-2 text-white bg-gray-500 hover:bg-gray-600 rounded-lg shadow-md transition duration-200"
-          >
-            Back to Assessment
-          </button>
-          <button
-            onClick={downloadPDF}
-            className="px-6 py-2 text-white bg-green-600 hover:bg-green-700 rounded-lg shadow-md transition duration-200"
-          >
-            Download
-          </button>
-        </div>
-      </div>
+        <div className="max-w-3xl p-6 sm:p-12 mx-auto bg-gray-200 shadow-lg rounded-lg">
+  <div className="p-4 sm:p-6 bg-gray-200 rounded-lg" id="assessment-result">
+    <h1 className="mb-4 text-2xl sm:text-4xl font-bold text-gray-900">Assessment Result</h1>
+    <div className="mb-6 text-base sm:text-lg text-gray-800">
+      <p className="mb-4 text-gray-600">Generated on {dateTime}</p>
+      <p className="font-medium">Name: <span className="text-gray-900">{detail.name}</span></p>
+      <p className="font-medium">Email: <span className="text-gray-900">{detail.email}</span></p>
+      <p className="font-medium">Phone: <span className="text-gray-900">{detail.phone}</span></p>
+    </div>
+    <p className="mb-6 text-lg sm:text-xl text-gray-800">
+      Based on your responses, here are the available careers in{" "}
+      <span className="font-semibold text-blue-600">{selectedCareers[0].category}</span>:
+    </p>
+    <ul className="space-y-4 sm:space-y-6">
+      {selectedCareers.map(({ title, description, description2 }, index) => (
+        <li key={index} className="p-4 bg-white rounded-lg shadow-md border border-gray-200">
+          <h3 className="text-lg sm:text-xl font-semibold text-blue-600">{title}</h3>
+          <p className="text-gray-600">{description}</p>
+          {description2 && <p className="text-gray-600">{description2}</p>}
+        </li>
+      ))}
+    </ul>
+  </div>
+  <div className="flex flex-col sm:flex-row justify-end gap-4 mt-6 sm:mt-8">
+    <button
+      onClick={() => {
+        setSubmitted(false);
+        setResponses({});
+        setCurrentPage(0);
+        setRankedCareers([]);
+      }}
+      className="px-4 sm:px-6 py-2 text-white bg-gray-500 hover:bg-gray-600 rounded-lg shadow-md transition duration-200"
+    >
+      Back to Assessment
+    </button>
+    <button
+      onClick={downloadPDF}
+      className="px-4 sm:px-6 py-2 text-white bg-green-600 hover:bg-green-700 rounded-lg shadow-md transition duration-200"
+    >
+      Download
+    </button>
+  </div>
+</div>
+
       
       ) : (
         <div className="max-w-2xl mx-auto bg-gray-300 shadow-lg rounded-lg p-6">
